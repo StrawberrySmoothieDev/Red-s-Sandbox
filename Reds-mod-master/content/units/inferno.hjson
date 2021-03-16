@@ -7,8 +7,8 @@ range: 100
 weaponOffsetY: 1
 engineOffsetY: -3
 engineSize: 2
-buildSpeed: 1.6
-rotateSpeed: 10
+buildSpeed: 1.2
+rotateSpeed: 8
 mass: 5.0
 targetAir: true
 rotateWeapon: true
@@ -35,7 +35,7 @@ name: inferno-weapon
   shootY: 6
   reload: 5
   ejectEffect: none
-  recoil: 1
+  recoil: 2
   shootEffect: wave
   rotate: false
   mirror: false
