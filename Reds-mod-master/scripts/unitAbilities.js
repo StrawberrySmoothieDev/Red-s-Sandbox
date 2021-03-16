@@ -1,5 +1,5 @@
 const armor = extendContent(UnitType, "armor", {});
-/*T1 unit*/
+/*T1 unit used as template for Burner/inferno*/
 armor.constructor = () => {
 const unit = extend(UnitEntity, {
 })
