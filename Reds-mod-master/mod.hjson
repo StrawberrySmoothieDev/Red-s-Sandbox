@@ -1,0 +1,6 @@
+name: "Red's Mod"
+displayName: "[#f1d26e]Red's Mod"
+author: "[#d99f6b]Red Frost"
+description: "[#f7ea72]Unit test mod, with gimmicky unique ideas and other bs."
+version: "1.4.1"
+minGameVersion: "105"

@@ -1,0 +1,45 @@
+name: Inferno
+speed: 3.0
+maxVelocity: 3.0
+flying: true
+health: 600
+range: 100
+weaponOffsetY: 1
+engineOffsetY: -3
+engineSize: 2
+buildSpeed: 1.6
+rotateSpeed: 10
+mass: 5.0
+targetAir: true
+rotateWeapon: true
+research: dagger
+weapons:[
+{
+name: inferno-weapon
+  x: 0
+  y: -3
+  shootY: 6
+  reload: 2
+  ejectEffect: none
+  recoil: 1
+  shootEffect: splash
+  rotate: true
+  mirror: false
+  bullet: heavyOilShot 
+  inaccuracy: 6
+    }
+{
+  name: infernoslag-weapon
+  x: 0
+  y: 3
+  shootY: 6
+  reload: 5
+  ejectEffect: none
+  recoil: 1
+  shootEffect: wave
+  rotate: false
+  mirror: false
+  bullet: heavySlagShot 
+  inaccuracy: 4
+  }
+  ]
