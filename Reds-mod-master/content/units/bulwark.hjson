@@ -5,7 +5,7 @@ flying: true
 health: 2000
 range: 100
 weaponOffsetY: 1
-engineOffsetY: -3
+engineOffsetY: -4
 engineSize: 5
 rotateSpeed: 7
 mass: 7.0
@@ -19,13 +19,13 @@ name: har-artil
   x: 0
   y: -3
   shootY: 6
-  reload: 4
+  reload: 45
   ejectEffect: none
-  recoil: 1
+  recoil: 2
   shootSound: shootSmall
   rotate: true
   mirror: false
-  lifetime: 80
+  lifetime: 160
   width: 14f 
   height: 14f
   collidesTiles: false
