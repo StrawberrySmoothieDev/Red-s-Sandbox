@@ -7,9 +7,9 @@ return unit
 }
 armor.abilities.add(new ForceFieldAbility(30, 5, 100, 1200));
 
-const shield = extendContent(UnitType, "shield", {});
+const bulwark = extendContent(UnitType, "bulwark", {});
 /*T2 unit*/
-shield.constructor = () => {
+bulwark.constructor = () => {
 const unit = extend(UnitEntity, {
 })
 return unit

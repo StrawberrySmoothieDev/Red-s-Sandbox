@@ -1,0 +1,34 @@
+name: Bulwark
+speed: 2.0
+maxVelocity: 2.0
+flying: true
+health: 2000
+range: 100
+weaponOffsetY: 1
+engineOffsetY: -3
+engineSize: 5
+rotateSpeed: 7
+mass: 7.0
+targetAir: true
+buildSpeed: 1.0
+rotateWeapon: false
+research: dagger
+weapons:[
+{
+name: mobile-scorch
+  x: 0
+  y: -3
+  shootY: 6
+  reload: 4
+  ejectEffect: none
+  recoil: 1
+  shootSound: shootSmall
+  rotate: true
+  mirror: false
+  lifetime: 80
+  splashDamageRadius: 5
+  splashDamage: 10
+  speed: 5
+  bullet: pyraFlame
+    }
+  ]
