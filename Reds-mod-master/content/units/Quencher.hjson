@@ -1,9 +1,9 @@
 name: Quencher
 speed: 3.0
-maxVelocity: 3.0
+maxVelocity: 5.0
 flying: true
-health: 600
-range: 100
+health: 400
+range: 150
 weaponOffsetY: 1
 engineOffsetY: -3
 engineSize: 2
