@@ -15,7 +15,7 @@ rotateWeapon: false
 research: dagger
 weapons:[
 {
-name: mobile-scorch
+name: har-artil
   x: 0
   y: -3
   shootY: 6
@@ -26,9 +26,17 @@ name: mobile-scorch
   rotate: true
   mirror: false
   lifetime: 80
-  splashDamageRadius: 5
-  splashDamage: 10
+  width: 14f 
+  height: 14f
+  collidesTiles: false
+  ammoMultiplier:  4f
+  splashDamageRadius: 45f
+  splashDamage: 50f
+  backColor: Pal.missileYellowBack
+  frontColor: Pal.missileYellow
+  status: StatusEffects.blasted
+  statusDuration: 60f
   speed: 5
-  bullet: pyraFlame
+  bullet: artilleryExplosive
     }
   ]
